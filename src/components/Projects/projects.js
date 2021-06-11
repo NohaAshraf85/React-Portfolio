@@ -1,4 +1,5 @@
-import React from "rect";
+import React from "react";
+import "./projects.css";
 
 function Projects() {
     return(
