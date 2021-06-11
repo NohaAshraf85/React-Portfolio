@@ -9,10 +9,10 @@ import Projects from "./components/Projects/projects";
 function App() {
   return (
 
-    <div className="app">
+    <div className="app d-flex flex-column h-100">
 
       <Navbar />
-      
+
       <div className="sections">
 
       <Hero />

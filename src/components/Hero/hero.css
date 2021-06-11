@@ -2,7 +2,6 @@
     position: relative;
     height: 600px;
     overflow: hidden;
-    background: url("//React-Portfolio/public/assets/pexels-ken-tomita-389818.jpg") no-repeat center;
     background-size: cover;
     margin-bottom: 20px;
 }
