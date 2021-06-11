@@ -4,8 +4,12 @@ import Navbar from "./components/Navbar/navbar"
 
 function App() {
   return (
-    <Navbar />,
-    <Container />
+
+    <div className="app">
+      top
+      section - intro -portfolio page -work page - testimonials - contact
+    </div>
+    
   );
 }
 
