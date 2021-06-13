@@ -5,6 +5,8 @@ import Portfolio from "./components/Portfolio/portfolio";
 import Technologies from "./components/Technologies/technologies";
 import Contact from "./components/Contact/contact";
 import Projects from "./components/Projects/projects";
+import Aboutme from "./components/AboutMe/aboutMe";
+import "./app.css";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <div className="sections">
 
       <Hero />
+      <Aboutme />
       <Portfolio />
       <Technologies />
       <Projects />

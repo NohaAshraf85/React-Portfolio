@@ -1,6 +1,7 @@
 .hero{
     position: relative;
-    height: 580px;
+    /* height: 100vh; */
+    height: 589px;
     overflow: hidden;
     background-size: cover;
     margin-bottom: 20px;
