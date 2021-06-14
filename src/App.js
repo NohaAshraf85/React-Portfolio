@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Hero from "./components/Hero/hero";
 import Navbar from "./components/Navbar/navbar";
 import Portfolio from "./components/Portfolio/portfolio";
@@ -10,6 +11,7 @@ import "./app.css";
 
 function App() {
   return (
+    <Router>
 
     <div className="app d-flex flex-column h-100">
 
@@ -27,6 +29,8 @@ function App() {
       </div>
       
     </div>
+
+    </Router>
     
   );
 }
