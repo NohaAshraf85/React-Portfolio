@@ -16,11 +16,11 @@ function Navbar() {
                     </Link>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
-                            <Link to="/about">
+                            {/* <Link to="/about"> */}
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">About</a>
+                                    <a className="nav-link active" aria-current="page" href="#aboutMe">About</a>
                                 </li>
-                            </Link>
+                            {/* </Link> */}
                             <Link to="/portfolio">
                                 <li className="nav-item">
                                     <a className="nav-link active" aria-current="page" href="#">Portfolio</a>

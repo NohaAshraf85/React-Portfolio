@@ -25,15 +25,11 @@ function App() {
 
       </Switch>
 
-
       <div className="sections">
 
       <Hero />
       <About />
-      <Technologies />
-      <Portfolio />
-      <Contact />
-
+      
       </div>
       
     </div>
