@@ -1,12 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Hero from "./components/Hero/hero";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
-import Portfolio from "./components/Portfolio/portfolio";
+import Home from "./pages/Home/home";
+import Hero from "./components/Hero/hero";
+import About from "./pages/About/about";
 import Technologies from "./components/Technologies/technologies";
-import Contact from "./components/Contact/contact";
-import Projects from "./components/Projects/projects";
-import Aboutme from "./components/AboutMe/aboutMe";
+import Portfolio from "./pages/Portfolio/portfolio";
+import Contact from "./pages/About/about";
 import "./app.css";
 
 function App() {
@@ -16,14 +16,22 @@ function App() {
     <div className="app d-flex flex-column h-100">
 
       <Navbar />
+      <Switch>
+
+      <Route path="/" exact component={ Home }/>
+      <Route path="/about" component={ About }/>
+      <Route path="/portfolio" component={ Portfolio }/>
+      <Route path="/contact" component={ Contact }/>
+
+      </Switch>
+
 
       <div className="sections">
 
       <Hero />
-      <Aboutme />
-      <Portfolio />
+      <About />
       <Technologies />
-      <Projects />
+      <Portfolio />
       <Contact />
 
       </div>

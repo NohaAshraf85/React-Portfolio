@@ -1,24 +1,39 @@
 import React from "react";
 import "./navbar.css";
+import { Link }from "react-router-dom";
 
 function Navbar() {
     return(
         <div className="navbarclass">
 
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="#">Noha Ashraf</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
-                    <a className="nav-link active" aria-current="page" href="#">About</a>
-                    <a className="nav-link" href="#">Portfolio</a>
-                    <a className="nav-link" href="#">Contact</a>
+                <div className="container-fluid">
+                    <Link to="/">
+                    <a className="navbar-brand" href="#">Noha Ashraf</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    </Link>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <Link to="/about">
+                                <li className="nav-item">
+                                    <a className="nav-link active" aria-current="page" href="#">About</a>
+                                </li>
+                            </Link>
+                            <Link to="/portfolio">
+                                <li className="nav-item">
+                                    <a className="nav-link active" aria-current="page" href="#">Portfolio</a>
+                                </li>
+                            </Link>
+                            <Link to="/contact">
+                                <li className="nav-item">
+                                    <a className="nav-link active" aria-current="page" href="#">Contact</a>
+                                </li>
+                            </Link>
+                        </ul>
+                    </div>
                 </div>
-                </div>
-            </div>
 
             {/* social media buttons */}
       
