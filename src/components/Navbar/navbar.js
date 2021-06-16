@@ -6,7 +6,7 @@ function Navbar() {
     return(
         <div className="navbarclass">
 
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
                 <div className="container-fluid">
                     <Link to="/">
                     <a className="navbar-brand font-color" href="#">Noha Ashraf</a>
