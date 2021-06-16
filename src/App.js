@@ -8,6 +8,7 @@ import Technologies from "./components/Technologies/technologies";
 import Portfolio from "./pages/Portfolio/portfolio";
 import Contact from "./pages/About/about";
 import card from "./components/Card/card";
+import Footer from "./components/Footer/footer";
 import "./app.css";
 
 const projects = [
@@ -83,6 +84,7 @@ function App() {
       <About />
       <Technologies />
       <Portfolio />
+      <Footer />
       
       </div>
       
