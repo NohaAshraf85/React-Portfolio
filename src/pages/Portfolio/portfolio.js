@@ -26,7 +26,7 @@ function Portfolio() {
         {
             img: "/assets/teamProfileGenerator.png",
             name: "Team Profile Generator",
-            description: "A CLI app that creates a webpage display team basic information",
+            description: "CLI app that creates a webpage displing team basic info",
             github: "https://github.com/NohaAshraf85/Team-Profile-Generator",
             deployment: "https://drive.google.com/file/d/1tDyKklkteBCH80E-3qU6Nj2TzF0YdVxU/view",
         },
@@ -55,17 +55,19 @@ function Portfolio() {
 
     const renderCard = (card, index) => {
         return (
-            <Card className="card col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard m-2" style={{ width: '18rem', height: '20rem' }} key={index}>
+            <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard">
+            <Card className="card " style={{ width: '18rem', height: '20rem' }} key={index}>
             <Card.Img variant="top" src={card.img} />
             <Card.Body>
                 <Card.Title>{card.name}</Card.Title>
                 <Card.Text>
                 {card.description}
                 </Card.Text>
-                <Button href={card.github} variant="dark" target="_blank"  rel="noreferrer">GitHub</Button>
-                <Button href={card.deployment} variant="dark" target="_blank"  rel="noreferrer">Project</Button>
+                <Button className="mx-1" href={card.github} variant="dark" target="_blank"  rel="noreferrer">GitHub</Button>
+                <Button className="mx-1" href={card.deployment} variant="dark" target="_blank"  rel="noreferrer">Project</Button>
             </Card.Body>
             </Card>
+            </div>
         )
     }
 
