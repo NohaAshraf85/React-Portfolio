@@ -81,6 +81,7 @@ function App() {
 
       <Hero />
       <About />
+      <Technologies />
       <Portfolio />
       
       </div>
