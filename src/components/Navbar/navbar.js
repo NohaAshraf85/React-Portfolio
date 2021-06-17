@@ -9,26 +9,26 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
                 <div className="container-fluid">
                     <Link to="/">
-                    <a className="navbar-brand font-color" href="#">Noha Ashraf</a>
+                    <span className="navbar-brand font-color" href="#">Noha Ashraf</span>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     </Link>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
-                            {/* <Link to="/about"> */}
+                             <Link to="/about"> 
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#aboutMe">About</a>
+                                <span className="nav-link active" aria-current="page" href="#">About</span>
                                 </li>
-                            {/* </Link> */}
+                            </Link> 
                             <Link to="/portfolio">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Portfolio</a>
+                                    <span className="nav-link active" aria-current="page" href="#">Portfolio</span>
                                 </li>
                             </Link>
                             <Link to="/contact">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Contact</a>
+                                <span className="nav-link active" aria-current="page" href="#">Contact</span>
                                 </li>
                             </Link>
                         </ul>

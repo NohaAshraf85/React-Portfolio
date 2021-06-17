@@ -13,7 +13,7 @@ function Contact() {
 
                 <div className="col-ls-6 col-md-6 col-sm-6">
                     <div className="formBackground p-5">
-                    <form className="d-flex flex-column px-4" action="mailto:noha_ashraf85@hotmail.com?subject=contact me&amp;" method="post" enctype="text/plain">
+                    <form className="d-flex flex-column px-4" action="mailto:noha_ashraf85@hotmail.com?subject=contact me&amp;" method="post" encType="text/plain">
                 Name<br />
                     <input className="form-control" type="text" name="name" /><br />
                 Email<br />
@@ -28,8 +28,8 @@ function Contact() {
                 
                 </div>
 
-                <div className="col-ls-6 col-md-6 col-sm-6">
-                <img src="/assets/pexels-oleg-magni-2764678.jpg" alt="get in touch image" width="500" height="600" />
+                <div className="col-ls-6 col-md-6 col-sm-6 pe-0">
+                <img className="" src="/assets/pexels-oleg-magni-2764678.jpg" alt="get in touch image" width="100%" />
                 </div>
                 </div>
             </div>
