@@ -2,12 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
 import Home from "./pages/Home/home";
-import Hero from "./components/Hero/hero";
 import About from "./pages/About/about";
-import Technologies from "./components/Technologies/technologies";
 import Portfolio from "./pages/Portfolio/portfolio";
-import Contact from "./pages/About/about";
-import card from "./components/Card/card";
+import Contact from "./pages/Contact/contact.js";
 import Footer from "./components/Footer/footer";
 import "./app.css";
 
@@ -78,15 +75,12 @@ function App() {
 
       </Switch>
 
-      <div className="sections">
+      
 
-      <Hero />
-      <About />
-      <Technologies />
-      <Portfolio />
+      
       <Footer />
       
-      </div>
+      
       
     </div>
 

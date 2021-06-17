@@ -1,0 +1,29 @@
+.font{
+    color: black;
+}
+
+.position{
+    position: relative;
+    background-color: cadetblue;
+    min-height: 50vh;
+}
+
+.custom-shape-divider-bottom-1623957155 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1623957155 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 271px;
+}
+
+.custom-shape-divider-bottom-1623957155 .shape-fill {
+    fill: #FFFFFF;
+}
