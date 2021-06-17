@@ -13,42 +13,4 @@
     background: #B8B8B8;
   } */
 
-  .position{
-    position: relative;
-    background-color: #87a7b3;
-
-    /* background: hsla(333, 100%, 53%, 1);
-
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-
-    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-
-    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0F7B", endColorstr="#F89B29", GradientType=1 ); */
-    /* background-image: linear-gradient(to right, rgb(209, 45, 108) , rgba(243, 121, 40, 0.924)); */
-
-    /* background-image: linear-gradient(to right, rgb(206, 31, 98) , rgba(255, 102, 0, 0.924)); */
-    /* background-color: cadetblue; */
-    min-height: 50vh;
-  }
-
-  .custom-shape-divider-top-1623943669 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1623943669 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 65px;
-}
-
-.custom-shape-divider-top-1623943669 .shape-fill {
-    fill: #FFFFFF;
-}
+  

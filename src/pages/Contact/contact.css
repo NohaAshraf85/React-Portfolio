@@ -2,28 +2,23 @@
     color: black;
 }
 
-.position{
-    position: relative;
-    background-color: cadetblue;
-    min-height: 50vh;
+.formBackground{
+    background-color: white;
+    border-radius: 5%;
 }
 
-.custom-shape-divider-bottom-1623957155 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
+.contactHeaderBackground{
+    background: hsla(221, 45%, 73%, 1);
 
-.custom-shape-divider-bottom-1623957155 svg {
-    position: relative;
-    display: block;
-    width: calc(140% + 1.3px);
-    height: 271px;
-}
-
-.custom-shape-divider-bottom-1623957155 .shape-fill {
-    fill: #FFFFFF;
+    background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BAFD9", endColorstr="#103783", GradientType=1 );
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }

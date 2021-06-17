@@ -5,12 +5,15 @@ function Contact() {
     return (
         <div className="contact">
 
-            <div className="container-fluid m-5 font" id="contactSection">
+            <div className="container-fluid font" id="contactSection">
                 <div className="row">
-            <h2 id="sampleWork" className="sampleProjectsSection pt-5">Get in touch</h2>
+                    <div className="contactHeaderBackground">
+                        <h2 id="sampleWork" className="sampleProjectsSection pt-5">Get in touch</h2>
+                    </div>
 
                 <div className="col-ls-6 col-md-6 col-sm-6">
-                <form className="d-flex flex-column px-4" action="mailto:noha_ashraf85@hotmail.com?subject=contact me&amp;" method="post" enctype="text/plain">
+                    <div className="formBackground p-5">
+                    <form className="d-flex flex-column px-4" action="mailto:noha_ashraf85@hotmail.com?subject=contact me&amp;" method="post" enctype="text/plain">
                 Name<br />
                     <input className="form-control" type="text" name="name" /><br />
                 Email<br />
@@ -22,13 +25,18 @@ function Contact() {
                 </form>
                 </div>
 
-               
+                
+                </div>
 
+                <div className="col-ls-6 col-md-6 col-sm-6">
+                <img src="/assets/pexels-oleg-magni-2764678.jpg" alt="get in touch image" width="500" height="600" />
+                </div>
+                </div>
             </div>
+            
 
-            </div>
-
-            </div>
+            
+        </div>
             
 
 
