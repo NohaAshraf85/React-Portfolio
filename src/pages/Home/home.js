@@ -3,7 +3,7 @@ import "./home.css";
 import Hero from "../../components/Hero/hero";
 import About from "../About/about";
 import Technologies from "../../components/Technologies/technologies";
-import Portfolio from "../../components/Portfolio/portfolio";
+import Portfolio from "../../pages/Portfolio/portfolio";
 
 
 

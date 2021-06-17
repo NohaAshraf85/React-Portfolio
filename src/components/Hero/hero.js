@@ -3,11 +3,11 @@ import "./hero.css"
 
 function Hero() {
     return(
-        <div className="container-fluid hero" style={{
+        <div className="container-fluid hero d-flex" style={{
             backgroundImage: `url(${process.env.PUBLIC_URL
-                + "/assets/pexels-ken-tomita-389818.jpg"})`
+                + "/assets/pexels-mateusz-dach-450035.jpg"})`
           }}  >
-            <div className="row text-center introText mt-5">
+            <div className="row text-center introText mx-auto mt-auto mb-auto w-100 ">
             <div className="col-4-lg col-12-md col-12-sm col-12-xs">
             <h2>Welcome to my portfolio</h2>
             <p>My name is Noha, I am an aspiring front-end developer</p>

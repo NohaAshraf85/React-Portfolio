@@ -15,12 +15,14 @@ function Footer() {
         <ul className="list-unstyled text-small">
           <li className="mb-1"><a className="link-secondary text-decoration-none" href="#aboutMe">About Me</a></li>
           <li className="mb-1"><a className="link-secondary text-decoration-none" href="#techSection">Technologies and Tools</a></li>
+          <li className="mb-1"><a className="link-secondary text-decoration-none" href="#techSection">My Work</a></li>
+
         </ul>
       </div>
       <div className="col-6 col-md">
         <h5>Get in contact</h5>
         <ul className="list-unstyled text-small">
-          <li className="mb-1"><a className="link-secondary text-decoration-none" href="#">Resource</a></li>
+          <li className="mb-1"><a className="link-secondary text-decoration-none" href="#"><i className="fas fa-envelope-open-text fa-2x envelope"></i></a></li>
         </ul>
       </div>
       <div className="col-6 col-md">
