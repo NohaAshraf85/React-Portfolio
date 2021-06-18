@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
-import { Link }from "react-router-dom";
+import { Link } from "react-router-dom";
+import Social from "../Social/social";
 
 function Navbar() {
     return(
@@ -37,11 +38,7 @@ function Navbar() {
 
             {/* social media buttons */}
       
-            <a className="btn btn-dark bi bi-github mx-1" href="https://github.com/NohaAshraf85" target="_blank"></a>
-            <a className="btn btn-dark bi bi-linkedin mx-1" href="https://www.linkedin.com/in/noha-ashraf-4158604b/" target="_blank"></a>
-            <a className="btn btn-dark bi bi-twitter mx-1" href="https://twitter.com/nohaashraf" target="_blank"></a>
-            <a className="btn btn-dark bi bi-facebook mx-1" href="https://www.facebook.com/noha.ashraf.585" target="_blank"></a>
-            <a className="btn btn-dark bi bi-instagram mx-1" href="https://www.instagram.com/nohaashraf85/" target="_blank"></a>
+            <Social />
             </nav>
 
         </div>
