@@ -9,7 +9,7 @@ function About() {
                     <div className="row pt-5">
                     <h2 id="aboutMe" className="aboutMeTitle">About Me</h2>
                     <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex">
-                        <img src="/assets/EZZ-Studio-9578.jpg" class="img-thumbnail m-3 mx-auto" alt="profile picture" width="300px" />
+                        <img src="/assets/EZZ-Studio-9578.jpg" className="img-thumbnail m-3 mx-auto" alt="profile picture" width="300px" />
                     </div>
                     <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 introduction">
                         <p>My name is Noha, i am an aspiring fron-end developer located in CT, USA. I love creating websites that serve their purpose with clean and easy user interface.</p>
