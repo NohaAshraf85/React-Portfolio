@@ -5,7 +5,7 @@ function Technologies() {
     return(
         <div className="technologies">
 
-          <div className="container-fluid">
+          <div className="container-fluid pt-5">
             <div className="row pt-5 techSectionTit fontColor" id="techSection">
               <h2 className="techIKnowTitle">Technologies & Tools</h2>
               <div className="col-6 col-lg-4 col-md-2 col-sm-4 tech" >
