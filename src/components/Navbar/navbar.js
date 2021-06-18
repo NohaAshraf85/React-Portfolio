@@ -9,7 +9,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
                 <div className="container-fluid">
                     <Link to="/">
-                    <span className="navbar-brand font-color" href="#">Noha Ashraf</span>
+                    <span className="navbar-brand font-color">Noha Ashraf</span>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -18,17 +18,17 @@ function Navbar() {
                         <ul className="navbar-nav">
                              <Link to="/about"> 
                                 <li className="nav-item">
-                                <span className="nav-link active" aria-current="page" href="#">About</span>
+                                <span className="nav-link active" aria-current="page">About</span>
                                 </li>
                             </Link> 
                             <Link to="/portfolio">
                                 <li className="nav-item">
-                                    <span className="nav-link active" aria-current="page" href="#">Portfolio</span>
+                                    <span className="nav-link active" aria-current="page">Portfolio</span>
                                 </li>
                             </Link>
                             <Link to="/contact">
                                 <li className="nav-item">
-                                <span className="nav-link active" aria-current="page" href="#">Contact</span>
+                                <span className="nav-link active" aria-current="page">Contact</span>
                                 </li>
                             </Link>
                         </ul>
