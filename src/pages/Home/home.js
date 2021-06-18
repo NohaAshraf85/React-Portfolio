@@ -3,7 +3,7 @@ import "./home.css";
 import Hero from "../../components/Hero/hero";
 import About from "../About/about";
 import Technologies from "../../components/Technologies/technologies";
-import Portfolio from "../../pages/Portfolio/portfolio";
+import Portfolio from "../../components/Portfolio/portfolio";
 
 
 
@@ -14,7 +14,7 @@ function Home() {
         <Hero />
         <About />
         <Technologies />
-        <Portfolio />
+        <Portfolio background="noBGColor" />
 
         </div>
 

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
 import Home from "./pages/Home/home";
 import About from "./pages/About/about";
-import Portfolio from "./pages/Portfolio/portfolio";
+import PortfolioPage from "./pages/PortfolioPage/PortfolioPage";
 import Contact from "./pages/Contact/contact.js";
 import Footer from "./components/Footer/footer";
 import "./app.css";
@@ -20,7 +20,7 @@ function App() {
 
       <Route path="/" exact component={ Home }/>
       <Route path="/about" component={ About }/>
-      <Route path="/portfolio" component={ Portfolio }/>
+      <Route path="/PortfolioPage" component={ PortfolioPage }/>
       <Route path="/contact" component={ Contact }/>
 
       </Switch>

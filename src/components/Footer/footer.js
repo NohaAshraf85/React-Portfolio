@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
+
 
 function Footer() {
   return (
@@ -22,7 +24,9 @@ function Footer() {
       <div className="col-6 col-md">
         <h5>Get in contact</h5>
         <ul className="list-unstyled text-small">
-          <li className="mb-1"><a className="link-secondary text-decoration-none" href="#"><i className="fas fa-envelope-open-text fa-2x envelope"></i></a></li>
+        <Link to="/contact">
+          <li className="mb-1"><span className="link-secondary text-decoration-none" href="#"><i className="fas fa-envelope-open-text fa-2x envelope"></i></span></li>
+          </Link>
         </ul>
       </div>
       <div className="col-6 col-md">

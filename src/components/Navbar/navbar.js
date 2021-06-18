@@ -21,7 +21,7 @@ function Navbar() {
                                 <span className="nav-link active" aria-current="page">About</span>
                                 </li>
                             </Link> 
-                            <Link to="/portfolio">
+                            <Link to="/portfoliopage">
                                 <li className="nav-item">
                                     <span className="nav-link active" aria-current="page">Portfolio</span>
                                 </li>

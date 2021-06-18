@@ -8,7 +8,7 @@ function Contact() {
             <div className="container-fluid font" id="contactSection">
                 <div className="row">
                     <div className="contactHeaderBackground">
-                        <h2 id="sampleWork" className="sampleProjectsSection pt-5">Get in touch</h2>
+                        <h2 id="contact" className="sampleProjectsSection pt-5">Get in touch</h2>
                     </div>
 
                 <div className="col-ls-6 col-md-6 col-sm-6">
