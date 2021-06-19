@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/navbar";
 import Home from "./pages/Home/home";
 import About from "./pages/About/about";
 import PortfolioPage from "./pages/PortfolioPage/PortfolioPage";
-import Contact from "./pages/Contact/contact.js";
+import Contact from "./pages/Contact/contact"
 import Footer from "./components/Footer/footer";
 import "./app.css";
 
