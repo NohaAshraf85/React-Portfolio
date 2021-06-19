@@ -1,6 +1,8 @@
 import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
+import Social from "../Social/social"
+
 
 
 function Footer() {
@@ -32,10 +34,12 @@ function Footer() {
       <div className="col-6 col-md">
         <h5>Social</h5>
         <ul className="list-unstyled text-small">
-          <li className="mb-1"><a className="link-secondary text-decoration-none" href="#">Team</a></li>
+          <Social />
+          
+          {/* <li className="mb-1"><a className="link-secondary text-decoration-none" href="#">Team</a></li>
           <li className="mb-1"><a className="link-secondary text-decoration-none" href="#">Locations</a></li>
           <li className="mb-1"><a className="link-secondary text-decoration-none" href="#">Privacy</a></li>
-          <li className="mb-1"><a className="link-secondary text-decoration-none" href="#">Terms</a></li>
+          <li className="mb-1"><a className="link-secondary text-decoration-none" href="#">Terms</a></li> */}
         </ul>
       </div>
     </div>

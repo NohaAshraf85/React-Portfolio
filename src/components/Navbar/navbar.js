@@ -39,6 +39,7 @@ function Navbar() {
             {/* social media buttons */}
       
             <Social />
+            
             </nav>
 
         </div>
