@@ -7,7 +7,7 @@ function Aboutme({titleStyle}) {
       <section className="section-about">
           <div className="container">
               <div className="row pt-5">
-              <h2 id="sampleWork" className={ titleStyle + " sampleProjectsSection"}>About Me</h2>
+              <h2 id="aboutMe" className={ titleStyle + " sampleProjectsSection"}>About Me</h2>
               <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex">
                   <img src="/assets/EZZ-Studio-9578.jpg" className="img-thumbnail m-3 mx-auto" alt="profile picture" width="300px" />
               </div>

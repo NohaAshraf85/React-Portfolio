@@ -7,10 +7,10 @@ function PortfolioPage() {
 
     return (
         <>
-        <Header title="Portfolio"></Header>
+        <Header title="My Work"></Header>
         <div className="home">
           
-        <Portfolio background="bgColor"/>
+        <Portfolio titleStyle="d-none"/>
         </div>
 </>
     );

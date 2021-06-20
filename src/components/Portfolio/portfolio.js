@@ -6,7 +6,7 @@ import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import "./portfolio.css";
 
-function Portfolio() {
+function Portfolio({titleStyle}) {
 
     const projects = [
         {
@@ -73,9 +73,9 @@ function Portfolio() {
 
     return (
         <div className="portfolio">
-             <h2 id="sampleWork" className=" sampleProjectsSection">My Work</h2>
+             <h2 id="sampleWork" className={titleStyle + " sampleProjectsSection"}>My Work</h2>
                
-            <div className="container">
+            <div className="container my-5">
                     <div className="row projects ">
                       
                         {projects.map(renderCard)}
