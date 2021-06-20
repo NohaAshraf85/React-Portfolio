@@ -6,7 +6,7 @@ import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import "./portfolio.css";
 
-function Portfolio({background}) {
+function Portfolio() {
 
     const projects = [
         {
@@ -56,7 +56,7 @@ function Portfolio({background}) {
     const renderCard = (card, index) => {
         return (
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard">
-            <Card className="card " style={{ width: '18rem', height: '20rem' }} key={index}>
+            <Card className="card mx-auto" style={{ width: '18rem', height: '20rem' }} key={index}>
             <Card.Img variant="top" src={card.img} />
             <Card.Body>
                 <Card.Title>{card.name}</Card.Title>
@@ -73,7 +73,7 @@ function Portfolio({background}) {
 
     return (
         <div className="portfolio">
-             <h2 id="sampleWork" className={background + " sampleProjectsSection"}>My Work</h2>
+             <h2 id="sampleWork" className=" sampleProjectsSection">My Work</h2>
                
             <div className="container">
                     <div className="row projects ">

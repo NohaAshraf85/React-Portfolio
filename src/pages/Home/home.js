@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import Hero from "../../components/Hero/hero";
-import About from "../About/about";
+import AboutMe from "../../components/AboutMe/aboutMe";
 import Technologies from "../../components/Technologies/technologies";
 import Portfolio from "../../components/Portfolio/portfolio";
 
@@ -12,7 +12,7 @@ function Home() {
         <div className="home">
 
         <Hero />
-        <About />
+        <AboutMe />
         <Technologies />
         <Portfolio background="noBGColor" />
 
