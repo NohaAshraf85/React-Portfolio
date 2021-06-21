@@ -41,8 +41,8 @@ function Portfolio({titleStyle}) {
             img: "/assets/currentTimeEntry1.png",
             name: "Day Planner",
             description: "Day Planner, 9-5 timeblocks, current, present and future tasks",
-            github: "https://github.com/NohaAshraf85/Code-Quiz-Application",
-            deployment: "https://github.com/NohaAshraf85/Day-Planner",
+            github: "https://github.com/NohaAshraf85/Day-Planner",
+            deployment: "https://nohaashraf85.github.io/Day-Planner/",
         },
         {
             img: "/assets/codeQuiz.png",
