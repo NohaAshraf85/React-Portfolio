@@ -11,7 +11,7 @@ import "./app.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename={'/React-Portfolio'}>
 
     <div className="app d-flex flex-column h-100">
 
