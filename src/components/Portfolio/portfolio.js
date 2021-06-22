@@ -10,42 +10,42 @@ function Portfolio({titleStyle}) {
 
     const projects = [
         {
-            img: "/assets/remoteRecruitHomepage.png",
+            img: "/React-Portfolio/assets/remoteRecruitHomepage.png",
             name: "remoteRecruit",
             description: "A website that connects freelancers and employers",
             github: "https://github.com/lbburnsy/remoteRecruit",
             deployment: "https://remote-recruit.herokuapp.com/",
         },
         {
-            img: "/assets/bookHunt1.png",
+            img: "/React-Portfolio/assets/bookHunt1.png",
             name: "Book Hunt",
             description: "Meet your next read and see NYT Best Sellers",
             github: "https://github.com/srad25/Book-Hunt",
             deployment: "https://srad25.github.io/Book-Hunt/",
         },
         {
-            img: "/assets/teamProfileGenerator.png",
+            img: "/React-Portfolio/assets/teamProfileGenerator.png",
             name: "Team Profile Generator",
             description: "CLI app that creates a webpage displing team basic info",
             github: "https://github.com/NohaAshraf85/Team-Profile-Generator",
             deployment: "https://drive.google.com/file/d/1tDyKklkteBCH80E-3qU6Nj2TzF0YdVxU/view",
         },
         {
-            img: "/assets/weatherDashboardHomepage.png",
+            img: "/React-Portfolio/assets/weatherDashboardHomepage.png",
             name: "Weather Dashboard",
             description: "creative design for a weather dashboard for the USA States",
             github: "https://github.com/NohaAshraf85/Weather-Dashboard",
             deployment: "https://nohaashraf85.github.io/Weather-Dashboard/",
         },
         {
-            img: "/assets/currentTimeEntry1.png",
+            img: "/React-Portfolio/assets/currentTimeEntry1.png",
             name: "Day Planner",
             description: "Day Planner, 9-5 timeblocks, current, present and future tasks",
             github: "https://github.com/NohaAshraf85/Day-Planner",
             deployment: "https://nohaashraf85.github.io/Day-Planner/",
         },
         {
-            img: "/assets/codeQuiz.png",
+            img: "/React-Portfolio/assets/codeQuiz.png",
             name: "Code Quiz",
             description: "A Code Quiz Application with timers and scores",
             github: "https://github.com/NohaAshraf85/Code-Quiz-Application",

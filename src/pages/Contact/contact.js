@@ -30,7 +30,7 @@ function Contact() {
                 </div>
 
                 <div className="col-ls-6 col-md-6 col-sm-6 pe-0">
-                <img className="" src="/assets/pexels-oleg-magni-2764678.jpg" alt="get in touch image" width="100%" />
+                <img className="" src="/React-Portfolio/assets/pexels-oleg-magni-2764678.jpg" alt="get in touch image" width="100%" />
                 </div>
                 </div>
             </div>
