@@ -11,7 +11,7 @@ function Footer() {
     <footer className="pt-4 my-md-5 pt-md-5 border-top footerStyle">
     <div className="row">
       <div className="col-12 col-md">
-        <img className="mb-2" src="/assets/a087a3f66722495ab1bfd316db1337ce.png" alt="logo" width="150" height="150" />
+        <img className="mb-2" src="/React-Portfolio/assets/a087a3f66722495ab1bfd316db1337ce.png" alt="logo" width="150" height="150" />
         <small className="d-block mb-3 text-muted">© 2021</small>
       </div>
       <div className="col-6 col-md">
