@@ -35,7 +35,7 @@ My Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io
 ## How It works:
 Upon opening the application the user is presented with a clean nav bar and a hero image that is presenting the website with a clean introduction section along with a button to go directly to the section where the user can view the work portfolio section.
 
-![Homepage](/assets/readme/homepage.png)
+![Homepage](./assets/readme/homepage.png)
 
 The Nav Bar also includes links to all the relevant social  websites:
 * GitHub
