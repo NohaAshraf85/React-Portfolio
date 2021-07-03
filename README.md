@@ -37,6 +37,9 @@ Upon opening the application the user is presented with a clean nav bar and a he
 
 ![Homepage](./assets/readme/homepage.png)
 
+
+![Homepage](https://github.com/NohaAshraf85/React-Portfolio/blob/main/public/assets/readme/homepage.png?raw=true)
+
 The Nav Bar also includes links to all the relevant social  websites:
 * GitHub
 * Facebook
