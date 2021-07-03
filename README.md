@@ -1,16 +1,16 @@
 # React-Portfolio
 ## Description
-My Portfolio application is created as a mobile first applicaiton using REact.js with an easy navigation approach and a clean user interface and reusable components.
+The Portfolio application is created using React.js as a mobile first applicaiton with clean and user friendly UI, easy navigation and reusable components.
 
-My Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io/React-Portfolio/)
+The Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io/React-Portfolio/)
 
 ## Table of Contents
 
 [Description](#description)
 
-[Technologies-&-tools-used](#technologies-&-Tools-Used)
+[Technologies](#Technologies)
 
-[Pages-&-Components](#pages-&-Components)
+[Pages & Components](#pages-&-Components)
 
 [License](#license)
 
@@ -22,40 +22,47 @@ My Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io
 
 [Questions](#questions)
 
-## Technologies & Tools Used:
+## Technologies:
 1. React.js
 2. CSS
 3. JavaScript
 4. Bootstrap
-5. npm packages
+5. npm packages and dependencies
     * react-dom
     * react-router-dom
     * react-bootstrap
 
 ## Pages & Components
-This React portfolio is comprised of Pages and Components. The portfolio Components are reused in multiple pages and some of the Components are used more than one time in a single page.
+The portfolio is comprised of Pages and Components. The Components are reused in multiple pages and some of the Components are used more than one time in a single page. The following table provides the list of components that are rendered in each page.
 
 Page | Component
 ------------ | -------------
 Homepage | Navbar, Hero, About Me, Portfolio, Footer
-About Me Page | Navbar, About Me, Footer, Header
-Portfolio Page | Navbar, Portfolio, Footer, Header
-Contact Page | Navbar, Contact, Footer, Header
+About Me Page | Navbar, About Me, Header, Footer
+Portfolio Page | Navbar, Portfolio, Header, Footer
+Contact Page | Navbar, Contact, Header, Footer
+
+The following components are rendered multiple times in a single page:
+
+Component | Renders on
+------------ | -------------
+Social Media | Navbar, Footer in the homepage
+Contact | Contact Page, Footer in the homepage and the contact page
 
 **Navbar Component**
-The Navbar Component is available on all pages providing an easy navigation experience through portfolio. Using react router dom provides an easy navigation experience. The Navbar also provides links to social media for communitation, the social media is another component that is rendered in the Navbar and in the Footer Component of the website.
+The Navbar Component is accessible on all pages. Using react router dom provides an easy navigation experience. The Navbar also provides links to social media for communitation, the social media is another component that is rendered in the Navbar and in the Footer Component of the website.
 
 **Hero Component**
-The Hero Component renders in the homepage to provide an introduction to the website and it also provides a button with a direct link to scroll through the portfolio section of the website to view the projects.
+The Hero Component renders in the homepage to provide an introduction to the website and it also provides a button with a direct link to scroll through the homepage to the portfolio section of the website to view the projects.
 
 **About Me Component**
-The About Me Component is a component that provides an introduction about the owner of the portfolio. This is a component that is renderd both in the Homepage and in the About Me Page that can be reached through the Navbar.
+The About Me Component is a component that provides an introduction about the owner of the portfolio. This is a component that is renderd both in the Homepage and in the About Me Page, the later can be accessed throught the Navbar.
 
 **Technologies**
 This Component provides a list of technologies and is rendered in the Homepage.
 
 **Portfolio**
-The Portfolio Component is a component that import a card Component from react-bootstrap and it renders cards that provide information about projects record dynamically. The Portfolio Component is reused in the Homepage and in the Portfolio Page that is accessible through the Navbar. 
+The Portfolio Component is a component that imports a card Component from react-bootstrap and it renders cards that provide information about projects record that render dynamically. The Portfolio Component is reused in the Homepage and in the Portfolio Page, the later is accessible through the Navbar. 
 
 **Homepage**
 The Homepage renders 4 components:
@@ -64,7 +71,7 @@ The Homepage renders 4 components:
 3. Technologies
 4. Portfolio
 
-![Homepage](https://github.com/NohaAshraf85/React-Portfolio/blob/main/public/assets/readme/homepage.png?raw=true)
+![Homepage](https://github.com/NohaAshraf85/React-Portfolio/blob/main/public/assets/readme/homepage1.png?raw=true)
 
 The Nav Bar component also includes links to all the relevant social media:
 * GitHub
