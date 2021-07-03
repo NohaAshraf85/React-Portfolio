@@ -33,7 +33,7 @@ The Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.i
     * react-bootstrap
 
 ## Pages & Components
-The portfolio is comprised of Pages and Components. The Components are reused in multiple pages and some of the Components are used more than one time in a single page. The following table provides the list of components that are rendered in each page.
+The portfolio is comprised of Pages and Components. The Components are reused in multiple pages and some of the Components are used more than one time on a single page. The following table provides the list of components that are rendered on each page.
 
 Page | Component
 ------------ | -------------
