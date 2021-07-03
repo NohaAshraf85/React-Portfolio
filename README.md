@@ -10,7 +10,7 @@ The Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.i
 
 [Technologies](#Technologies)
 
-[Pages & Components](#pages-&-Components)
+[Pages & Components](#Pages-&-Components)
 
 [License](#license)
 
