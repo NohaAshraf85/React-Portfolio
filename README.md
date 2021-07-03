@@ -80,10 +80,20 @@ The Nav Bar component also includes links to all the relevant social media:
 * LinkedIn
 * Twitter
 
-If the user chooses to click on View my Work Button, the user will be redirected to the work portfolio section.
+**About Me Page**
+The About Me Page provides informaiton about the profile owner along with contact information and a downloadable resume. 
 
-![My Work](./assets/images/projects.png)
+![About Me](https://github.com/NohaAshraf85/React-Portfolio/blob/main/public/assets/readme/aboutMe.png?raw=true)
 
+**Portfolio Page**
+The Portfolio Page provides information about the work experience displayed as cards, each card provides two buttons to access the GitHub ripositories and the deployed application or its demo. 
+
+![Portfolio](https://github.com/NohaAshraf85/React-Portfolio/blob/main/public/assets/readme/portfolio.png?raw=true)
+
+**Contact Page**
+The Contact Page enables the portfolio user to send an e-mail and a amessage to the portfolio owner to get in contact. 
+
+![contact](https://github.com/NohaAshraf85/React-Portfolio/blob/main/public/assets/readme/contact.png?raw=true)
 
 ## License
 ![APM](https://img.shields.io/apm/l/README)
