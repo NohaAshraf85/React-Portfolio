@@ -1,6 +1,6 @@
 # React-Portfolio
 ## Description
-My Portfolio application is created as a mobile first applicaiton using REact.js with an easy navigation approach and a clean user interface.
+My Portfolio application is created as a mobile first applicaiton using REact.js with an easy navigation approach and a clean user interface and reusable components.
 
 My Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io/React-Portfolio/)
 
@@ -8,7 +8,7 @@ My Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io
 
 [Description](#description)
 
-[Technologies-&-tools-used](#Technologies-Used)
+[Technologies-&-tools-used](#Technologies-&-Tools-Used)
 
 [How-it-Works](#How-it-Works)
 
@@ -22,7 +22,7 @@ My Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io
 
 [Questions](#questions)
 
-## Technologies Used:
+## Technologies & Tools Used:
 1. React.js
 2. CSS
 3. JavaScript
@@ -31,6 +31,23 @@ My Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io
     * react-dom
     * react-router-dom
     * react-bootstrap
+
+## How It works:
+Upon opening the application the user is presented with a clean nav bar and a hero image that is presenting the website with a clean introduction section along with a button to go directly to the section where the user can view the work portfolio section.
+
+![Homepage](/assets/readme/homepage.png)
+
+The Nav Bar also includes links to all the relevant social  websites:
+* GitHub
+* Facebook
+* Instagram
+* LinkedIn
+* Twitter
+
+If the user chooses to click on View my Work Button, the user will be redirected to the work portfolio section.
+
+![My Work](./assets/images/projects.png)
+
 
 ## License
 ![APM](https://img.shields.io/apm/l/README)
