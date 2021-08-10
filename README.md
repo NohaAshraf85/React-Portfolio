@@ -1,6 +1,6 @@
 # React-Portfolio
 ## Description
-The Portfolio application is created using React.js as a mobile first applicaiton with clean and user friendly UI, easy navigation and reusable components.
+The Portfolio application is created using React.js as a mobile first applicaton with clean and user friendly UI, easy navigation and reusable components.
 
 The Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io/React-Portfolio/)
 
