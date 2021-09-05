@@ -16,7 +16,7 @@ function Aboutme({titleStyle}) {
                   <p>Having lived in 3 continents and accumulating 7 years of experience in the sales department of a software development company and seeing the end result that clients got based on their requirements, so i decided to create these websites.</p>
                   <p>e-mail: noha_ashraf85@hotmail.com</p>
                   <p>Phone: 860-8777218</p>
-                  <a className="btn btn-primary px-5 viewMyWorkBtn" href="./assets/resume/NOHA ASHRAF_Resume_2019.pdf" target="_blank" download>My Resume</a>
+                  <a className="btn btn-primary px-5 viewMyWorkBtn" href="./React-Portfolio/assets/resume/NohaAshraf_resume.pdf" target="_blank" download>My Resume</a>
               </div>
               </div>
           </div>
