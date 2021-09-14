@@ -2,7 +2,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     /* background-color: rgba(85, 79, 79, 0.774); */
-    background-color: #87a7b3;
+    /* background-color: #87a7b3; */
 
 }
 
@@ -16,10 +16,20 @@
 .techIKnowTitle{
     margin-bottom: 40px;
     text-align: center;
-    color: white;
+    color: black;
     
 }
 
 .fontColor{
-    color: white;
+    color: black;
 }
+
+
+
+/* .card-img-top.card-image{
+    transition: all 1.5s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+  } */

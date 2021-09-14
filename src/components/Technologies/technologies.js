@@ -37,7 +37,7 @@ function Technologies() {
                   <h3>MySQL</h3>
               </div>
               <div className="col-6 col-lg-4 col-md-3 col-sm-4 tech">
-                <i className="fab fa-npm fa-4x fofontColornt"></i>
+                <i className="fab fa-npm fa-4x fontColornt"></i>
                   <h3>npm packages</h3>
               </div>
               <div className="col-6 col-lg-4 col-md-3 col-sm-4 tech">
