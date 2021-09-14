@@ -6,7 +6,7 @@ function About() {
     return (
         <>
         <Header title="About Me"/>
-       <Aboutme titleStyle="d-none"></Aboutme>
+        <Aboutme titleStyle="d-none"></Aboutme>
         </>
 
     );

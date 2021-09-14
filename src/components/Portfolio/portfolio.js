@@ -10,6 +10,13 @@ function Portfolio({titleStyle}) {
 
     const projects = [
         {
+            img: "/React-Portfolio/assets/ar-chive.png",
+            name: "Ar-Chive",
+            description: "A mobile first digital cookbook",
+            github: "https://github.com/lbburnsy/cookbook",
+            deployment: "https://infinite-citadel-91130.herokuapp.com/",
+        },
+        {
             img: "/React-Portfolio/assets/remoteRecruitHomepage.png",
             name: "remoteRecruit",
             description: "A website that connects freelancers and employers",
@@ -44,20 +51,20 @@ function Portfolio({titleStyle}) {
             github: "https://github.com/NohaAshraf85/Day-Planner",
             deployment: "https://nohaashraf85.github.io/Day-Planner/",
         },
-        {
-            img: "/React-Portfolio/assets/codeQuiz.png",
-            name: "Code Quiz",
-            description: "A Code Quiz Application with timers and scores",
-            github: "https://github.com/NohaAshraf85/Code-Quiz-Application",
-            deployment: "https://nohaashraf85.github.io/Code-Quiz-Application/",
-        }
+        // {
+        //     img: "/React-Portfolio/assets/codeQuiz.png",
+        //     name: "Code Quiz",
+        //     description: "A Code Quiz Application with timers and scores",
+        //     github: "https://github.com/NohaAshraf85/Code-Quiz-Application",
+        //     deployment: "https://nohaashraf85.github.io/Code-Quiz-Application/",
+        // }
     ]
 
     const renderCard = (card, index) => {
         return (
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard">
             <Card className="card mx-auto" style={{ width: '18rem', height: '20rem' }} key={index}>
-            <Card.Img variant="top" src={card.img} />
+            <Card.Img className="card-image" variant="top" src={card.img} />
             <Card.Body>
                 <Card.Title>{card.name}</Card.Title>
                 <Card.Text>
@@ -65,6 +72,7 @@ function Portfolio({titleStyle}) {
                 </Card.Text>
                 <Button className="mx-1" href={card.github} variant="dark" target="_blank"  rel="noreferrer">GitHub</Button>
                 <Button className="mx-1" href={card.deployment} variant="dark" target="_blank"  rel="noreferrer">Project</Button>
+                <Button className="mx-1" href={card.deployment} variant="dark" target="_blank"  rel="noreferrer">More</Button>
             </Card.Body>
             </Card>
             </div>

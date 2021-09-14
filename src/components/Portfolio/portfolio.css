@@ -42,3 +42,11 @@
     color: white;    margin-top:55px!important ;
     
 }
+
+.card-img-top.card-image{
+    transition: all 1.5s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+  }
